@@ -5,7 +5,7 @@
 }
 body{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #e8e8e8;
+  background-color:  	#e1b382;
 }
 
 .container{
@@ -13,12 +13,17 @@ body{
   margin: 50px auto;
 }
 
+.wrapper{
+  background-color:#12343b;
+  border-radius: 15px;
+  min-height: 600px;
+  padding: 20px 0;
+}
+
 .title{
   text-align: center;
-  color: darkblue;
-  background-color: lightgrey;
+  color: white;
   padding: 10px 0;
   margin-bottom: 20px;
   border-radius: 10px;
-  box-shadow: 4px 2px 8px #7f7f7f;
 }

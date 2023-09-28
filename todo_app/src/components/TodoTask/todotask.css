@@ -1,8 +1,6 @@
 .todotask_container{
     width: 80%;
     margin: 20px auto;
-
-  
 }
 
 .todotask_container .todo_item {
@@ -11,19 +9,19 @@
     align-items: center;
     margin-bottom: 15px;
 
-
     padding: 8px 16px;
-    border: 1px solid darkblue;
+    background-color: #e1b382;
     border-radius: 10px;
 }
 
 .todotask_container .todo_item h3{
     text-transform: uppercase;
-    color: darkblue;
+    
+    color: #12343b;
 }
 .todotask_container .todo_item button {
     border: none;
-    background-color: brown;
+    background-color: #821414;
     color: #fff;
     padding: 8px 16px;
     border-radius: 10px;
@@ -35,16 +33,11 @@
     width: 50%;
     margin: 0 auto;
     text-align: center;
-    color: rgb(166, 1, 1);
+    color: #12343b;
     cursor: pointer;
    
-    border-bottom: 1px solid red;;
+    background-color: #e1b382;
+    border-radius: 15px;
     padding: 10px;
    
-    transition: all 0.3s ease-in-out;
-}
-.empty_list:hover{
-    box-shadow: 4px 2px 8px #7f7f7f;
-    border-bottom: none;
-    border-radius: 15px;
 }

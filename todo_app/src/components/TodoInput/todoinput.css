@@ -20,8 +20,8 @@
 
 .todoinput button {
    border: none;
-   background-color: darkblue;
-   color: #fff;
+   background-color: #e1b382;
+   color: #12343b;
    padding: 0 10px;
    font-size: 16px;
    border-top-right-radius: 10px;
@@ -31,5 +31,5 @@
 }
 
 .todoinput button:hover {
-    background-color: rgb(3, 60, 217);
+    background-color: #ac7c49;
 }

@@ -11,10 +11,15 @@ function App() {
 
 	return (
 		<div className='container'>
-			<h1 className='title'>TODO APP</h1>
+			<div className='wrapper'>
+				<h1 className='title'>TODO APP</h1>
 
-			<TodoInput todoItems={todoItems} setTodoItems={setTodoItems} />
-			<TodoTask todoItems={todoItems} setTodoItems={setTodoItems} />
+				<TodoInput
+					todoItems={todoItems}
+					setTodoItems={setTodoItems}
+				/>
+				<TodoTask todoItems={todoItems} setTodoItems={setTodoItems} />
+			</div>
 		</div>
 	);
 }
